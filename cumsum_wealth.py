@@ -1,2 +1,2 @@
 def cal_cumsum_wealth(pd_data):
-    return pd_data['Profit'].cumsum()
+    return pd_data['Profit Early buying'].cumsum()
