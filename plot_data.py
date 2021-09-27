@@ -14,6 +14,7 @@ def basic_plot(fb_data):
     fb_data.set_index('Date', inplace=True)
     fb_data['MA200'].plot(label='MA200')
     fb_data['MA50'].plot(label='MA50')
+    fb_data['MA10'].plot(label='MA10')
     fb_data['Close'].plot(label='Close')
     plt.legend()
     plt.show()
